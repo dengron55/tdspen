@@ -356,29 +356,6 @@ export default function App() {
                   <span>Explore the Architecture</span>
                 </a>
               </div>
-
-              {/* 🎧 音訊播放器區塊（修正並優化閉合標籤） */}
-              <div className="mt-8 p-4 rounded-2xl bg-slate-900 border border-slate-800 max-w-xl mx-auto lg:mx-0 text-left">
-                <div className="flex items-center space-x-3 mb-3">
-                  <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
-                  <span className="text-xs font-mono font-bold text-amber-500 tracking-wider uppercase">
-                    Listen to the Book Brief (Audio Podcast)
-                  </span>
-                </div>
-                
-                <audio 
-                  controls 
-                  className="w-full h-10 rounded-lg accent-amber-500 bg-slate-950 focus:outline-none"
-                >
-                  <source src="/Beating_digital_exhaustion_with_biological_friction.m4a" type="audio/mp4" />
-                  你的瀏覽器不支援此音訊播放功能。
-                </audio>
-                
-                <p className="text-[11px] text-slate-500 mt-2 font-sans italic text-center lg:text-left">
-                  💡 "Beating Digital Exhaustion with Biological Friction" — Hosted via Author Rodin East.
-                </p>
-              </div>
-
             </div>
 
           </div>
@@ -603,7 +580,7 @@ export default function App() {
                 <div key={idx} className="bg-slate-950/90 p-6 rounded-xl border border-slate-900 flex flex-col justify-between hover:border-slate-800 transition-colors">
                   <div>
                     <span className="text-xs font-mono font-bold text-amber-500 uppercase block tracking-wider">{chap.num}</span>
-                    <h4 className="text-base font-serif font-bold text-slate-100 mt-1">{chap.title}</h4>
+                    <h4 className="text-base font-serif font-bold text-slate-110 mt-1">{chap.title}</h4>
                     <p className="mt-3 text-sm text-slate-400 leading-relaxed">{chap.desc}</p>
                   </div>
                   <div className="mt-6 pt-4 border-t border-t-slate-900/60 flex flex-wrap gap-2">
