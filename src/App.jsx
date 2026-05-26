@@ -44,7 +44,8 @@ export default function App() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    type: "Reader Insights and Reflections",
+  //  type: "Reader Insights and Reflections",
+    type: "Request the Concentric Defence Architecture Blueprint",
     message: ""
   });
 
@@ -214,7 +215,7 @@ export default function App() {
               </div>
               <div>
                 <span className="font-serif tracking-wider font-bold text-base text-amber-500 block">RODIN EAST</span>
-                <span className="text-[9px] tracking-widest text-slate-400 block uppercase font-mono">Official Author Page</span>
+                <span className="text-[9px] tracking-widest text-slate-400 block uppercase font-mono"></span>
               </div>
             </div>
 
@@ -651,7 +652,7 @@ export default function App() {
                 {/* 底部說明標籤等比放大 50% */}
                 <div className="absolute -bottom-8 -right-6 bg-slate-900/90 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center space-x-3 backdrop-blur-sm shadow-xl scale-150 origin-bottom-right z-20">
                   <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_10px_#10b981]" />
-                  <span className="text-[11px] font-mono font-bold text-slate-200 whitespace-nowrap">Source: Preface Master Chart</span>
+                  <span className="text-[11px] font-mono font-bold text-slate-200 whitespace-nowrap">Source: INTRODUCTION Master Chart</span>
                 </div>
               </div>
             </div>
@@ -799,9 +800,9 @@ export default function App() {
             <div className="lg:col-span-5">
               <div className="inline-flex items-center space-x-2 bg-amber-500/10 text-amber-500 px-3 py-1 rounded-full text-xs font-medium mb-4">
                 <FileSpreadsheet className="w-3.5 h-3.5" />
-                <span>Google Form Hub</span>
+                <span>Reader Hub</span>
               </div>
-              <h2 className="text-2xl font-serif font-bold text-white">Connect Directly via Google Forms</h2>
+              <h2 className="text-2xl font-serif font-bold text-white">Interact Directly with Rodin East</h2>
               <p className="mt-4 text-sm text-slate-400 leading-relaxed">
                 The launch of this volume marks the start of a broader mental reclamation initiative. Share your reading insights or log unique instances of algorithmic interference. Filling out the dynamic portal below directs your data safely into our secure logging workspace.
               </p>
@@ -838,8 +839,10 @@ export default function App() {
                     onChange={(e) => setFormData({...formData, type: e.target.value})}
                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-amber-500"
                   >
+                    <option value="Request the Concentric Defence Architecture Blueprint">Request the Concentric Defence Architecture Blueprint</option>
+                    <option value="Request The 7-Day Digital Stress Protocol">Request The 7-Day Digital Stress Protocol</option>
                     <option value="Reader Insights and Reflections">Reader Insights and Reflections</option>
-                    <option value="Reporting New Algorithmic Disturbance Cases">Reporting New Algorithmic Disturbance Cases</option>
+                    <option value="Reporting New Digital Disturbance Cases">Reporting New Digital Disturbance Cases</option>
                   </select>
                 </div>
 
@@ -878,7 +881,7 @@ export default function App() {
       <footer className="bg-slate-950 border-t border-slate-900 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-slate-500">
           <div className="flex items-center space-x-2">
-            <span className="text-amber-500 font-serif font-bold">RE</span>
+            <span className="text-amber-500 font-serif font-bold"></span>
             <span>© 2026 Rodin East. All rights reserved. Published via Amazon KDP.</span>
           </div>
           <div className="flex space-x-6">
