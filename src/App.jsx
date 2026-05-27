@@ -45,7 +45,7 @@ export default function App() {
     name: "",
     email: "",
   //  type: "Reader Insights and Reflections",
-    type: "Request the Concentric Defence Architecture Blueprint",
+    type: "Receive the Excerpt Chapter 1.1",
     message: ""
   });
 
@@ -182,7 +182,7 @@ export default function App() {
     fetch(formUrl, { method: "POST", mode: "no-cors", body: formDataBody })
       .then(() => {
         setFeedbackSuccess(true);
-        setFormData({ name: "", email: "", type: "Reader Insights and Reflections", message: "" });
+        setFormData({ name: "", email: "", type: "Receive the Excerpt Chapter 1.1", message: "" });
         setTimeout(() => setFeedbackSuccess(false), 6000);
       })
       .catch((err) => console.error(err));
