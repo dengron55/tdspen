@@ -627,7 +627,7 @@ export default function App() {
                 
                 <div className="relative rounded-lg shadow-2xl overflow-hidden border border-slate-800 transform group-hover:-translate-y-2 transition-transform duration-300">
                   <div className="bg-slate-900 p-2.5 border-b border-slate-800 flex items-center justify-between">
-                    <span className="text-[10px] text-amber-500 tracking-widest uppercase font-mono font-bold">Concentric Defence Architecture Blueprint</span>
+                    <span className="text-[10px] text-amber-500 tracking-widest uppercase font-mono font-bold">Concentric Defense Architecture Blueprint</span>
                     <div className="flex space-x-1.5">
                       <div className="w-1.5 h-1.5 rounded-full bg-red-500" />
                       <div className="w-1.5 h-1.5 rounded-full bg-yellow-500" />
@@ -804,7 +804,7 @@ export default function App() {
               </div>
               <h2 className="text-2xl font-serif font-bold text-white">Get Free Gifts or Submit Reader Feedback</h2>
               <p className="mt-4 text-sm text-slate-400 leading-relaxed">
-                The launch of this volume marks the start of a broader mental reclamation initiative. Whether you are an explorer discovered our framework or an active reader tracking your progress, this hub connects you to our extended ecosystem. Fill out the portal below to claim your exclusive rewards—including free excerpt Chapter 1.1 and concentric defence architecture blueprint —or receive your 7-day detox checklist, securely log your reading insights and new digital disturbance cases directly into our research workspace.
+                The launch of this volume marks the start of a broader mental reclamation initiative. Whether you are an explorer discovered our framework or an active reader tracking your progress, this hub connects you to our extended ecosystem. Fill out the portal below to claim your exclusive rewards—including free excerpt Chapter 1.1 and concentric defense architecture blueprint —or receive your 7-day detox checklist, securely log your reading insights and new digital disturbance cases directly into our research workspace.
               </p>
             </div>
 
@@ -840,7 +840,7 @@ export default function App() {
                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-amber-500"
                   >
                     <option value="Receive the Excerpt Chapter 1.1">Receive the Excerpt Chapter 1.1</option>
-                    <option value="Receive the Concentric Defence Architecture Blueprint">Receive the Concentric Defence Architecture Blueprint</option>
+                    <option value="Receive the Concentric Defense Architecture Blueprint">Receive the Concentric Defense Architecture Blueprint</option>
                     <option value="Receive the 7-Day Detox Checklist">Receive the 7-Day Detox Checklist</option>
                     <option value="Reader Insights and Reflections">Reader Insights and Reflections</option>
                     <option value="Reporting New Digital Disturbance Cases">Reporting New Digital Disturbance Cases</option>
