@@ -45,7 +45,7 @@ export default function App() {
     name: "",
     email: "",
   //  type: "Reader Insights and Reflections",
-    type: "Receive the Excerpt Chapter 1.1",
+    type: "Claim Exclusive Rewards",
     message: ""
   });
 
@@ -182,7 +182,7 @@ export default function App() {
     fetch(formUrl, { method: "POST", mode: "no-cors", body: formDataBody })
       .then(() => {
         setFeedbackSuccess(true);
-        setFormData({ name: "", email: "", type: "Receive the Excerpt Chapter 1.1", message: "" });
+        setFormData({ name: "", email: "", type: "Claim Exclusive Rewards", message: "" });
         setTimeout(() => setFeedbackSuccess(false), 6000);
       })
       .catch((err) => console.error(err));
@@ -839,8 +839,7 @@ export default function App() {
                     onChange={(e) => setFormData({...formData, type: e.target.value})}
                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-amber-500"
                   >
-                    <option value="Receive the Excerpt Chapter 1.1">Receive the Excerpt Chapter 1.1</option>
-                    <option value="Receive the Concentric Defense Architecture Blueprint">Receive the Concentric Defense Architecture Blueprint</option>
+                    <option value="Claim Exclusive Rewards">Claim Exclusive Rewards</option>
                     <option value="Receive the 7-Day Detox Checklist">Receive the 7-Day Detox Checklist</option>
                     <option value="Reader Insights and Reflections">Reader Insights and Reflections</option>
                     <option value="Reporting New Digital Disturbance Cases">Reporting New Digital Disturbance Cases</option>
@@ -848,7 +847,7 @@ export default function App() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-slate-400 uppercase mb-2">Message Preview</label>
+                  <label className="block text-xs font-medium text-slate-400 uppercase mb-2">Message</label>
                   <textarea 
                     rows="4" required value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
