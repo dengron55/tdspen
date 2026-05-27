@@ -225,7 +225,7 @@ export default function App() {
               <a href="#illustrations" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Art Gallery</a>
               <a href="#protocol" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Architecture</a>
               <a href="#authority" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Scientific Backing</a>
-              <a href="#feedback" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Reader Hub</a>
+              <a href="#feedback" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Reader & Resource Hub</a>
               <a 
                 href="https://www.amazon.com" 
                 target="_blank" 
@@ -256,7 +256,7 @@ export default function App() {
             <a href="#illustrations" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Art Gallery</a>
             <a href="#protocol" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Architecture</a>
             <a href="#authority" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Scientific Backing</a>
-            <a href="#feedback" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Reader Hub</a>
+            <a href="#feedback" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Reader & Resource Hub</a>
             <a 
               href="https://www.amazon.com" 
               target="_blank" 
@@ -627,7 +627,7 @@ export default function App() {
                 
                 <div className="relative rounded-lg shadow-2xl overflow-hidden border border-slate-800 transform group-hover:-translate-y-2 transition-transform duration-300">
                   <div className="bg-slate-900 p-2.5 border-b border-slate-800 flex items-center justify-between">
-                    <span className="text-[10px] text-amber-500 tracking-widest uppercase font-mono font-bold">Master Architecture Blueprint</span>
+                    <span className="text-[10px] text-amber-500 tracking-widest uppercase font-mono font-bold">Concentric Defence Architecture Blueprint</span>
                     <div className="flex space-x-1.5">
                       <div className="w-1.5 h-1.5 rounded-full bg-red-500" />
                       <div className="w-1.5 h-1.5 rounded-full bg-yellow-500" />
@@ -800,11 +800,11 @@ export default function App() {
             <div className="lg:col-span-5">
               <div className="inline-flex items-center space-x-2 bg-amber-500/10 text-amber-500 px-3 py-1 rounded-full text-xs font-medium mb-4">
                 <FileSpreadsheet className="w-3.5 h-3.5" />
-                <span>Reader Hub</span>
+                <span>Reader & Resource Hub</span>
               </div>
-              <h2 className="text-2xl font-serif font-bold text-white">Interact Directly with Rodin East</h2>
+              <h2 className="text-2xl font-serif font-bold text-white">Get Free Gifts or Submit Reader Feedback</h2>
               <p className="mt-4 text-sm text-slate-400 leading-relaxed">
-                The launch of this volume marks the start of a broader mental reclamation initiative. Share your reading insights or log unique instances of algorithmic interference. Filling out the dynamic portal below directs your data safely into our secure logging workspace.
+                The launch of this volume marks the start of a broader mental reclamation initiative. Whether you are an explorer discovered our framework or an active reader tracking your progress, this hub connects you to our extended ecosystem. Fill out the portal below to claim your exclusive rewards—including free excerpt Chapter 1.1 and concentric defence architecture blueprint —or receive your 7-day detox checklist, securely log your reading insights and new digital disturbance cases directly into our research workspace.
               </p>
             </div>
 
@@ -839,8 +839,9 @@ export default function App() {
                     onChange={(e) => setFormData({...formData, type: e.target.value})}
                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-amber-500"
                   >
-                    <option value="Request the Concentric Defence Architecture Blueprint">Request the Concentric Defence Architecture Blueprint</option>
-                    <option value="Request The 7-Day Digital Stress Protocol">Request The 7-Day Digital Stress Protocol</option>
+                    <option value="Receive the Excerpt Chapter 1.1">Receive the Excerpt Chapter 1.1</option>
+                    <option value="Receive the Concentric Defence Architecture Blueprint">Receive the Concentric Defence Architecture Blueprint</option>
+                    <option value="Receive the 7-Day Detox Checklist">Receive the 7-Day Detox Checklist</option>
                     <option value="Reader Insights and Reflections">Reader Insights and Reflections</option>
                     <option value="Reporting New Digital Disturbance Cases">Reporting New Digital Disturbance Cases</option>
                   </select>
@@ -860,7 +861,7 @@ export default function App() {
                   type="submit"
                   className="w-full inline-flex items-center justify-center space-x-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold text-sm hover:shadow-lg hover:shadow-amber-500/20 transition-all transform hover:-translate-y-0.5"
                 >
-                  <span>Submit Secure Feedback</span>
+                  <span>Submit & Secure Your Access</span>
                   <ExternalLink className="w-4 h-4" />
                 </button>
 
