@@ -842,7 +842,7 @@ export default function App() {
                     <option value="Claim Exclusive Rewards">Claim Exclusive Rewards</option>
                     <option value="Receive the 7-Day Detox Checklist">Receive the 7-Day Detox Checklist</option>
                     <option value="Reader Insights and Reflections">Reader Insights and Reflections</option>
-                    <option value="Reporting New Digital Disturbance Cases">Reporting New Digital Disturbance Cases</option>
+                    <option value="Report New Digital Disturbance Cases">Report New Digital Disturbance Cases</option>
                   </select>
                 </div>
 
