@@ -227,7 +227,7 @@ export default function App() {
               <a href="#authority" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Scientific Backing</a>
               <a href="#feedback" className="text-sm font-medium text-slate-300 hover:text-amber-500 transition-colors">Reader & Resource Hub</a>
               <a 
-                href="https://a.co/d/01n7HkW7" 
+                href="https://www.amazon.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-semibold text-sm hover:shadow-lg hover:shadow-amber-500/20 transform hover:-translate-y-0.5 transition-all"
@@ -258,7 +258,7 @@ export default function App() {
             <a href="#authority" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Scientific Backing</a>
             <a href="#feedback" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:bg-slate-900 hover:text-amber-500">Reader & Resource Hub</a>
             <a 
-              href="https://a.co/d/01n7HkW7" 
+              href="https://www.amazon.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full text-center inline-flex items-center justify-center space-x-2 px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold"
@@ -341,7 +341,7 @@ export default function App() {
 
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <a 
-                  href="https://a.co/d/01n7HkW7" 
+                  href="https://www.amazon.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 px-8 py-4 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold text-base hover:shadow-xl hover:shadow-amber-500/10 transform hover:-translate-y-0.5 transition-all group"
@@ -781,7 +781,7 @@ export default function App() {
               </div>
             </div>
             <a 
-              href="https://a.co/d/01n7HkW7" 
+              href="https://www.amazon.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-xs font-mono font-bold text-slate-200 text-center whitespace-nowrap hover:text-amber-500 transition-colors"
@@ -888,7 +888,7 @@ export default function App() {
             <a href="#about" className="hover:text-slate-300">About</a>
             <a href="#illustrations" className="hover:text-slate-300">Art Gallery</a>
             <a href="#protocol" className="hover:text-slate-300">Protocol Blueprint</a>
-            <a href="https://a.co/d/01n7HkW7" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 flex items-center space-x-1">
+            <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 flex items-center space-x-1">
               <span>Amazon KDP</span> <ExternalLink className="w-3 h-3" />
             </a>
           </div>
