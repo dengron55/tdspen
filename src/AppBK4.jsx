@@ -893,42 +893,8 @@ export default function App() {
             </a>
           </div>
         </div>
-
-        {/* Designed by Ronald Design */}
-        <div style={{
-          marginTop: 24,
-          paddingTop: 20,
-          borderTop: "1px solid rgba(255,255,255,0.06)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 8,
-        }}>
-          <span style={{ color: "rgba(255,255,255,0.3)", fontSize: 11 }}>
-            Web and logo designed by
-          </span>
-          <a
-            href="https://ronalddesign.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              opacity: 0.5,
-              transition: "opacity 0.2s",
-            }}
-            onMouseEnter={e => e.currentTarget.style.opacity = 1}
-            onMouseLeave={e => e.currentTarget.style.opacity = 0.5}
-          >
-            <img
-              src="/RDlogo1.png"
-              alt="Ronald Design"
-              style={{ height: 32, width: "auto" }}
-            />
-          </a>
-        </div>
-
       </footer>
+
     </div>
   );
 }
